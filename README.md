@@ -30,17 +30,6 @@ It was developed as a final project for JavaScript practice, following a YouTube
 
 3. Type a task in the input and click **"Add"** or press **Enter**.
 
-## 💼 Project Structure
-
-📁 project-root/
-│
-├── index.html         # Main HTML structure
-├── CSS/
-│   └── style.css      # All styling rules
-├── js/
-│   └── control.js     # JavaScript logic
-└── README.md          # Project documentation
-
 ## 👨‍💻 Author
 
 Davi Henrique
