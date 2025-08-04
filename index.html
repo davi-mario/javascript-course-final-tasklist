@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet" />
+
+  <title>Task List - JavaScript Project</title>
+</head>
+<body>
+  <h1>Task List</h1>
+
+  <header>
+    <input type="text" id="inputTask" placeholder="Add a new task" />
+    <button onclick="addTask()" id="btn-add" class="add">Add</button>
+  </header>
+
+  <!-- This area will be filled dynamically by JavaScript -->
+  <main id="taskArea"></main>
+
+  <!-- Footer fixed at the bottom of the page -->
+  <footer class="page-footer">
+    © Davi Henrique · July/August 2025 · JavaScript YouTube Study Project
+  </footer>
+
+  <script src="js/control.js"></script>
+</body>
+</html>
